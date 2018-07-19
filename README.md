@@ -1,6 +1,9 @@
 # Tips
 Tips是一个非常简单的状态弹窗插件，其优势在于十分轻巧，并且不依赖于任何第三方js库。
 
+### View
+预览地址：[https://rilyzhang.github.io/Tips/](https://rilyzhang.github.io/Tips/)
+
 ### Usage
 
 首先将整个tips文件夹copy至你的项目中，在html中引入tips.js即可：
