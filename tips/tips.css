@@ -1,0 +1,22 @@
+.status-tip {
+    border: 1px solid;
+    padding: 10px 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    transition: opacity .5s;
+}
+.status-tip .iconfont {
+    margin-right: 10px;
+}
+.status-tip.error-tip {
+    color: #f00;
+    background-color: #e3080010;
+    border-color: #f00;
+}
+.status-tip.success-tip {
+    color: #00af00;
+    background-color: #00cf0010;
+    border-color: #00af00;
+}
