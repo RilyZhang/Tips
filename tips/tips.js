@@ -58,10 +58,11 @@ Tips.prototype = {
         that.prevTip.timer = setTimeout(function () {
             dom.style.opacity = '0';
             setTimeout(function () {
-                document.body.removeChild(dom);
+                try {
+                    document.body.removeChild(dom);
+                } catch(e) {}
                 that.prevTip.dom = null;
             }, 500)
         }, that.showTime);
     }
 }
-var tips = new Tips()

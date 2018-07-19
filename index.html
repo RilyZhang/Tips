@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="./tips/tips.js"></script>
+</head>
+<body>
+<button onclick="success()">Hello</button>
+<button onclick="fail()">fail</button>
+<script>
+    var tips = new Tips()
+    tips.showTime = 3000
+//    window.onload = function () {
+//        tips.success('Hello')
+//    }
+    function success() {
+        tips.success('Hello')
+    }
+    function fail() {
+        tips.fail('Hello')
+    }
+</script>
+</body>
+</html>
